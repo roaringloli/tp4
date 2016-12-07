@@ -8,10 +8,12 @@ header{
 }
 nav{
   background-color:white;
+  text-align: center;
 }
 
 ul li{
   color:#FFFFFF;
+  display:inline;
 }
 
 ul a{
@@ -24,13 +26,28 @@ ul a{
   font-family: :Sans-serif; 
 }
 
-.gauche{
+.gauche a{
   color:#96E0FA;
+  float:left;
+  border-bottom:1px dashed black; 
+  text-decoration: none;
+}
+
+.droite a{
+  color:#96E0FA;
+  float:right;
+  border-bottom: 1px dashed black;
+  text-decoration: none;
+}
+.informaticien{
   float:left;
 }
 
-.droite{
-  color:#96E0FA;
-  float:right;
+article{
+  border:1px solid lightgray;
 }
-  
+
+.titre{
+  height:55px;
+  line-height:75px;
+}
