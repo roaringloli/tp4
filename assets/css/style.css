@@ -1,0 +1,36 @@
+header{
+  background-color:#eeeeee
+}
+
+.titre 
+{
+  text-align:center;
+}
+nav{
+  background-color:white;
+}
+
+ul li{
+  color:#FFFFFF;
+}
+
+ul a{
+  color:#96E0FA;
+  border-bottom: 1px dashed black;
+  text-decoration:none;
+}
+
+*{
+  font-family: :Sans-serif; 
+}
+
+.gauche{
+  color:#96E0FA;
+  float:left;
+}
+
+.droite{
+  color:#96E0FA;
+  float:right;
+}
+  
